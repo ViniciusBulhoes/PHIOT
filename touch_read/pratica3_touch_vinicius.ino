@@ -28,12 +28,6 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  /*
-  unsigned long curMillis = millis();
-  if(curMillis - prevMillis >= 250){
-    digitalWrite(2, !digitalRead(2));
-    prevMillis = curMillis;
-  }*/
 
   if(touchRead(15) < 20 && !gameStart && !gameRun && !gameWin1 && !gameWin2){
     gameStart = true;
