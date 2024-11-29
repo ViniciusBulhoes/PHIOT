@@ -1,0 +1,3 @@
+<h1>SPIFFS</h1>
+<p align=justify>  Neste projeto, haverá um botão que irá alterar o estado da de um LED e salvar tal estado num documento texto na memória flash do ESP32. Bem como o dia, data e hora em que houve essa mudança. O ESP32 também foi configurado para toda vez que ele for resetado a primeira coisa que será feita é a leitura desse documento e o LED terá um estado inicial igual ao último estado salvo.</p>
+<p align=justify>  É necessário alterar o código fonte do projeto para se adequar à conexão WIFI que será conectada. Pode ser que ocorram problemas no transporte dos pacotes de dados do servidor NTP, nesses casos o controladr irá salvar "unable to save date and time" no lugar da data e hora.</p>
