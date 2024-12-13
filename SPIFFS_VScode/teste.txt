@@ -1,0 +1,6 @@
+wifi = NPITI-IoT;
+password = NPITI-IoT;
+modo = morse;
+vel1 = 300;
+vel2 = 1000;
+estado_inicial = off;
